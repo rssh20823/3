@@ -1,0 +1,10 @@
+</style>
+</head>
+<body>
+<div class="thermometer">
+  <div class="mercury" id="mercury"></div>
+</div>
+<div class="temperature-input">
+  <label for="temperature">输入温度（摄氏度）：</label>
+  <input type="number" id="temperature" onchange="updateTemperature(this.value)">
+</div>
